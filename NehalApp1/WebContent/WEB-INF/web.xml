@@ -8,7 +8,7 @@
 
 
 	<welcome-file-list>
-		
+		<welcome-file>operands.html</welcome-file>
 
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>
@@ -17,16 +17,16 @@
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
+	
 
-	<servlet>
-		<servlet-name>mittu</servlet-name>
-		<servlet-class>com.infospan.servlet2.LoginServlet</servlet-class>
+<servlet>
+<servlet-name>mikky</servlet-name>
+<servlet-class>OperandServlet</servlet-class>
+</servlet>
 
-	</servlet>
 
-	<servlet-mapping>
-		<servlet-name>mittu</servlet-name>
-		<url-pattern>/login</url-pattern>
-	</servlet-mapping>
-
+<servlet-mapping>
+<servlet-name>mikky</servlet-name>
+<url-pattern>/doaddition</url-pattern>
+</servlet-mapping>
 </web-app>
